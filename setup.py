@@ -18,7 +18,7 @@ setup(
     name='opentelemetry-ext-honeycomb-samplers',
     description='Honeycomb Samplers for OpenTelemetry',
     long_description=long_description,
-    long_description_contenxt_type='text/markdown',
+    long_description_content_type='text/markdown',
     author='Honeycomb Authors',
     author_email='solutions@honeycomb.io',
     url='https://github.com/honeycombio/opentelemetry-samplers-python',
