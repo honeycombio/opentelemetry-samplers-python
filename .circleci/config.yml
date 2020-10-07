@@ -8,9 +8,10 @@ commands:
           command: |
             python3 -m venv venv
             . venv/bin/activate
+            python3 -m pip install --upgrade pip
             pip install pyflakes==2.1.1 pylint setuptools-lint
             pip install --upgrade setuptools wheel twine
-            pyflakes src/opentelemetry/ext/honeycomb/samplers && python setup.py lint --lint-rcfile pylint.rc && python setup.py test
+            pyflakes src/opentelemetry/ext/honeycomb/sampling && python setup.py test
 
   publish:
     steps:
@@ -75,7 +76,7 @@ jobs:
 
 workflows:
   version: 2
-  otel_exporter:
+  otel_samplers:
     jobs:
       - test_python3-5: *tag_filters
       - test_python3-6: *tag_filters
