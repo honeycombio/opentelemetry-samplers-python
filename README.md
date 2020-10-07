@@ -17,9 +17,9 @@ from opentelemetry.sdk.trace.export import (
     ConsoleSpanExporter,
     SimpleExportSpanProcessor,
 )
-from opentelemetry.ext.honeycomb import DeterministicSampler
+from opentelemetry.ext.honeycomb.sampling import DeterministicSampler
 
-sampler = DeterministicSampler(5)
+sampler = DeterministicSampler(5) # every trace has a 20% chance of being sampled
 trace.set_tracer_provider(TracerProvider(sampler=sampler))
 
 trace.get_tracer_provider().add_span_processor(
