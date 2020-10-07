@@ -38,9 +38,13 @@ setup(
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
     install_requires=[
-        'opentelemetry-api>=0.13b0',
-        'opentelemetry-sdk>=0.13b0',
+        'opentelemetry-api==0.13b0',
+        'opentelemetry-sdk==0.13b0',
         'libhoney>=1.9.0',
+    ],
+    setup_requires=['pytest-runner'],
+    tests_require=[
+        'pytest'
     ],
     version=PACKAGE_INFO["VERSION"],
 )
