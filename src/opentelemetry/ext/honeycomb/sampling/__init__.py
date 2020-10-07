@@ -27,9 +27,14 @@ class DeterministicSampler(Sampler):
         attributes: Attributes = None,
         links: Sequence["Link"] = (),
     ) -> "SamplingResult":
+        sample_rate = {'SampleRate': self.rate}
+        if attributes is None:
+           attributes = sample_rate
+        else:
+            attributes.update(sample_rate)
         sha1 = hashlib.sha1()
-        sha1.update(str(trace_id).encode('utf-8'))
+        sha1.update(hex(trace_id).encode('utf-8'))
         value, = struct.unpack('>I', sha1.digest()[:4])
         if value >= self.upper_bound:
-            return SamplingResult(Decision.DROP)
+            return SamplingResult(Decision.DROP, attributes)
         return SamplingResult(Decision.RECORD_AND_SAMPLE, attributes)
