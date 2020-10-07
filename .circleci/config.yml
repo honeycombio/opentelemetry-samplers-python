@@ -75,7 +75,7 @@ jobs:
 
 workflows:
   version: 2
-  otel_exporter:
+  otel_samplers:
     jobs:
       - test_python3-5: *tag_filters
       - test_python3-6: *tag_filters
