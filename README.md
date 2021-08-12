@@ -1,5 +1,7 @@
 # opentelemetry-samplers-python
 
+[![OSS Lifecycle](https://img.shields.io/osslifecycle/honeycombio/REPO)](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md)
+
 **NOTE**: This is experimental and is subject to change a _lot_ or go away entirely. Use with caution.
 
 Honeycomb Samplers for use with the OpenTelemetry Python SDK
