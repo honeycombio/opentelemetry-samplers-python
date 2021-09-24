@@ -1,6 +1,6 @@
 # opentelemetry-samplers-python
 
-[![OSS Lifecycle](https://img.shields.io/osslifecycle/honeycombio/opentelemetry-samplers-python)](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md)
+[![OSS Lifecycle](https://img.shields.io/osslifecycle/honeycombio/opentelemetry-samplers-python?color=success)](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md)
 
 **NOTE**: This is experimental and is subject to change a _lot_ or go away entirely. Use with caution.
 
