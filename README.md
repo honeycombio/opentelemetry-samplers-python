@@ -1,6 +1,8 @@
 # opentelemetry-samplers-python
 
-[![OSS Lifecycle](https://img.shields.io/osslifecycle/honeycombio/opentelemetry-samplers-python?color=success)](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md)
+[![OSS Lifecycle](https://img.shields.io/osslifecycle/honeycombio/opentelemetry-samplers-python?color=pink)](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md)
+
+**STATUS**: This project is being sunset. See https://github.com/honeycombio/opentelemetry-samplers-python/issues/13.
 
 **NOTE**: This is experimental and is subject to change a _lot_ or go away entirely. Use with caution.
 
