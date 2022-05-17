@@ -1,8 +1,12 @@
 # opentelemetry-samplers-python
 
-[![OSS Lifecycle](https://img.shields.io/osslifecycle/honeycombio/opentelemetry-samplers-python?color=pink)](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md)
+[![OSS Lifecycle](https://img.shields.io/osslifecycle/honeycombio/opentelemetry-samplers-python)](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md)
 
-**STATUS**: This project is being sunset. See https://github.com/honeycombio/opentelemetry-samplers-python/issues/13.
+**STATUS: this project is [archived](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md).** You can learn more about sampling with OpenTelemetry in our [docs](https://docs.honeycomb.io/getting-data-in/opentelemetry/python/#sampling).
+
+Questions? You can chat with us in the **Honeycomb Pollinators** Slack. You can find a direct link to request an invite in [Spread the Love: Appreciating Our Pollinators Community](https://www.honeycomb.io/blog/spread-the-love-appreciating-our-pollinators-community/).
+
+---
 
 **NOTE**: This is experimental and is subject to change a _lot_ or go away entirely. Use with caution.
 
